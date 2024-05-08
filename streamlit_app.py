@@ -4,6 +4,7 @@ import string
 import streamlit as st
 from nltk.corpus import stopwords
 from nltk.stem.porter import PorterStemmer
+nltk.download('punkt')
 
 ps = PorterStemmer()
 
